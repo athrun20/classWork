@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#carousel {
+			position: relative;
+
+		}
+
+		#carousel img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 600px;
+			height: 400px;
+			display: none;
+		}
+
+		#carousel img:first-of-type {
+			display: none;
+		}
+
+	</style>
+</head>
+<body>
+
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum cum numquam, iure, sequi et velit aperiam dolor est perspiciatis rem veritatis non, fugiat quaerat iusto tenetur laboriosam quos necessitatibus animi?
+	
+	<div id="carousel">
+		<img src="https://i.ytimg.com/vi/KY4IzMcjX3Y/maxresdefault.jpg">
+		<img src="http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg">
+		<img src="http://www.petmd.com/sites/default/files/dog-vomit.jpg">
+
+	</div>
+
+	<script>
+		$(document).ready(function() {
+			//$("#carousel img").eq(0).show();
+		});
+
+
+	</script>
+
+	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+</body>
+</html>
